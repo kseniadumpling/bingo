@@ -1,4 +1,4 @@
-#Computer Networks Bingo
+# Computer Networks Bingo
 
 Welcome to the beautiful game that can make you a little bit happier during the CN lesson
 
