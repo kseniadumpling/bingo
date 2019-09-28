@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Card from "react-bootstrap/Card";
 import './BingoCell.css';
 
 /*
@@ -14,20 +13,18 @@ class BingoCell extends Component {
 
 	handleClick = (e) => {
 		this.setState({
-			cheched: true
+			checked: !this.state.checked
 		})
 	}
 
 	render() {
 		return (
-			<Card>
-				<Card.Body
-						className={this.state.checked ? 'checked': ''}
-						onClick={this.handleClick /*Точно ли это будет работать?*/}
+				<td
+						className={this.state.checked ? 'content checked': 'content'}
+						onClick={this.handleClick}
 				>
 					<p>{this.props.info.phrase}</p>
-				</Card.Body>
-			</Card>
+				</td>
 		);
 	}
 }

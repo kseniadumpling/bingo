@@ -18,13 +18,13 @@ class App extends Component {
 
   render () {
     return (
-      <Container className="text-center">
+      <Container >
         <Row className="justify-content-md-center pt-5">
           <Col md="auto">
-            <h1>Бинго по лекциям компьютерных сетей</h1>
-            <h5>Перед тем, как продолжить, пройдите валидацию:</h5>
-            <p>(will make it later)</p>
-            {/* тут вызовется функция валидации, которая покажет таблицу при успешном входе */}
+            <h1 className="pt-4 pb-2 text-center">Бинго!</h1>
+            <h5 className="pb-5 ml-5">Собравший всю строку/столбец/диагональ обязан выкрикнуть "бинго" на всю аудиторию<br/>
+              <i>и пусть Глебовский припомнит вам это на экзамене</i>
+            </h5>
             <BingoTable/>
           </Col>
         </Row>

@@ -1,3 +1,11 @@
 .checked {
     background-color: crimson;
 }
+
+/* Only works with 5x5 table. Need a manual fix in a changed num of table's rows case */
+
+td {
+    width: 10%;
+    position: relative;
+}
+

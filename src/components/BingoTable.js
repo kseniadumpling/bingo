@@ -1,8 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import PhraseList from '../data/phrases.json'
 import BingoCell from "./BingoCell";
+import Table from "react-bootstrap/Table";
 
-const CELLS_NUM = 3;
+const CELLS_NUM = 25;
+const CELLS_ROW = Math.sqrt(CELLS_NUM);
 
 /*
  * It parses the list of phrases,
@@ -44,18 +46,22 @@ class BingoTable extends Component {
 		let phrases = BingoTable.shufflePhraseList(BingoTable.getPhraseList()); // TODO: think about complexity
 		let cells = [];
 		for (let i = 0; i < CELLS_NUM; i++) {
-			cells.push(<BingoCell info={phrases[i]}/>);
+			if(i % CELLS_ROW === 0){
+				cells.push(<tr/>);
+			}
+			cells.push(<BingoCell key={i} info={phrases[i]}/>);
 		}
+
 		return cells;
 	}
 
 
 	render() {
 		return (
-			<Fragment>
+			<Table bordered className="text-center">
 				{/*Упаковать в табличку 6x6 */}
 				{BingoTable.renderBingoCells()}
-			</Fragment>
+			</Table>
 		);
 	}
 }
