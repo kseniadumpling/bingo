@@ -2,5 +2,5 @@
 
 Welcome to the beautiful game that can make you a little bit happier during the CN lesson
 
-GitHub webpage for the game: kseniadumpling.github.io/bingo
+[GitHub Page for the game](https://www.kseniadumpling.github.io/bingo)
 
