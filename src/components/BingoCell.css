@@ -9,3 +9,12 @@ td {
     position: relative;
 }
 
+@media(max-width: 600px) {
+    .table td {
+        padding: 5px;
+    }
+    p {
+        line-height: 1;
+        font-size: 12px;
+    }
+}

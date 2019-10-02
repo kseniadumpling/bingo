@@ -19,12 +19,16 @@ class App extends Component {
   render () {
     return (
       <Container >
-        <Row className="justify-content-md-center pt-5">
-          <Col md="auto">
-            <h1 className="pt-4 pb-2 text-center">Бинго!</h1>
-            <p className="pb-5 ml-5">Собравший всю строку/столбец/диагональ обязан выкрикнуть "бинго"<br/>
+        <Row className="justify-content-md-center pt-2">
+          <Col md={10} sm={12} xs={12}>
+            <h1 className="pt-2 pb-2 text-center">Бинго!</h1>
+            <p className="pb-2 ml-5">Собравший всю строку/столбец/диагональ обязан выкрикнуть "бинго"<br/>
               <i>и пусть Глебовский припомнит вам это на экзамене</i>
             </p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center">
+          <Col md={12} sm={12} xs={12}>
             <BingoTable/>
           </Col>
         </Row>
