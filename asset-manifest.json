@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/bingo/static/css/main.c8ef055e.chunk.css",
-    "main.js": "/bingo/static/js/main.edbc6d21.chunk.js",
-    "main.js.map": "/bingo/static/js/main.edbc6d21.chunk.js.map",
+    "main.css": "/bingo/static/css/main.be3117a8.chunk.css",
+    "main.js": "/bingo/static/js/main.c4cb0f31.chunk.js",
+    "main.js.map": "/bingo/static/js/main.c4cb0f31.chunk.js.map",
     "runtime-main.js": "/bingo/static/js/runtime-main.0fc3e100.js",
     "runtime-main.js.map": "/bingo/static/js/runtime-main.0fc3e100.js.map",
-    "static/css/2.0624914a.chunk.css": "/bingo/static/css/2.0624914a.chunk.css",
-    "static/js/2.c9ce8af9.chunk.js": "/bingo/static/js/2.c9ce8af9.chunk.js",
-    "static/js/2.c9ce8af9.chunk.js.map": "/bingo/static/js/2.c9ce8af9.chunk.js.map",
+    "static/js/2.8da1320b.chunk.js": "/bingo/static/js/2.8da1320b.chunk.js",
+    "static/js/2.8da1320b.chunk.js.map": "/bingo/static/js/2.8da1320b.chunk.js.map",
     "index.html": "/bingo/index.html",
-    "precache-manifest.fe783f502583ed0b7c384ffe44756381.js": "/bingo/precache-manifest.fe783f502583ed0b7c384ffe44756381.js",
+    "precache-manifest.dc92c356a4eeca56257296be4b8248fc.js": "/bingo/precache-manifest.dc92c356a4eeca56257296be4b8248fc.js",
     "service-worker.js": "/bingo/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/bingo/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.c8ef055e.chunk.css.map": "/bingo/static/css/main.c8ef055e.chunk.css.map"
+    "static/css/main.be3117a8.chunk.css.map": "/bingo/static/css/main.be3117a8.chunk.css.map"
   }
 }
